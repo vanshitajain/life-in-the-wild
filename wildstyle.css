@@ -37,7 +37,7 @@ html{
 }
 .header ul{
 		text-align:right;
-        margin:0px;
+        	margin:0px;
 		background-color:#3E6068;
 		width: 100%;
 		height:40px;
@@ -141,11 +141,27 @@ h4{
 }
 @media all and (max-width:800px)
 {
+	*{
+	margin:0px;
+	padding: 0px;
+	justify-content:right;
+	}
 	html,body{
 		width:100%;
 		margin:0px;
 		padding:0px;
 		justify-content:center;
+	}
+	#intro img{
+	width:100%;
+	height: 720px;
+	}
+	.header ul{
+		text-align:right;
+        	margin:0px;
+		background-color:#3E6068;
+		width: 100%;
+		height:40px;
 	}
 	#about_us{
 		justify-content: center;
