@@ -145,6 +145,7 @@ h4{
 		width:100%;
 		margin:0px;
 		padding:0px;
+		justify-content:center;
 	}
 	#about_us{
 		justify-content: center;
