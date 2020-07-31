@@ -141,6 +141,11 @@ h4{
 }
 @media all and (max-width:800px)
 {
+	html,body{
+		width:100%;
+		margin:0px;
+		padding:0px;
+	}
 	#about_us{
 		justify-content: center;
 		flex-flow: row wrap;
@@ -157,6 +162,7 @@ h4{
 	}
 	.footer{
 		text-align: center;
+		justify-content:center;
 	}
 	.footer a{
 		margin:5px 10px 5px 5px;
